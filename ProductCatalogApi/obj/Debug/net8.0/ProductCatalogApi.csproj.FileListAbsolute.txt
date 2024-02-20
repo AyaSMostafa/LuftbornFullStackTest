@@ -146,6 +146,9 @@ D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\De
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Azure.Identity.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Humanizer.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -158,6 +161,9 @@ D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\De
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -267,9 +273,9 @@ D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\De
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProductCatalogApi.props
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\scopedcss\bundle\ProductCatalogApi.styles.css
-D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\ProductCatalogApi.csproj.CopyComplete
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\ProductCatalogApi.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\refint\ProductCatalogApi.dll
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\ProductCatalogApi.pdb
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\ProductCatalogApi.genruntimeconfig.cache
 D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\ref\ProductCatalogApi.dll
+D:\Luftborn Technical Test (.NET)\LuftbornFullStackTest\ProductCatalogApi\obj\Debug\net8.0\ProductC.66D80D3B.Up2Date

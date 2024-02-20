@@ -31,7 +31,6 @@ namespace ProductCatalogApi.Services
                 Name = productDto.Name,
                 Price = productDto.Price,
                 CategoryId = productDto.CategoryId
-                // Set other properties as needed
             };
 
             _dbContext.Products.Add(product);

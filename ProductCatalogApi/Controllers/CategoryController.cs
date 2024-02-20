@@ -4,9 +4,11 @@ using System.Threading.Tasks;
 using ProductCatalogApi.Dtos;
 using ProductCatalogApi.Models;
 using ProductCatalogApi.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ProductCatalogApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/categories")]
     public class CategoryController : ControllerBase

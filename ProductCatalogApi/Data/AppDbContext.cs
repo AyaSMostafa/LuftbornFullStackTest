@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductCatalogApi.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace ProductCatalogApi.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -22,7 +23,9 @@ namespace ProductCatalogApi.Data
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.Category)
                 .WithMany(c => c.Products)
-                .HasForeignKey(p => p.CategoryId);    
+                .HasForeignKey(p => p.CategoryId);
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

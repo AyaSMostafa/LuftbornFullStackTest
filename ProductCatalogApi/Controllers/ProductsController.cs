@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProductCatalogApi.Dtos;
 using ProductCatalogApi.Models;
 using ProductCatalogApi.Services;
 
 namespace ProductCatalogApi.Controllers
 {
-    // Controllers/ProductsController.cs
+    [Authorize]
     [ApiController]
     [Route("api/products")]
     public class ProductsController : ControllerBase
