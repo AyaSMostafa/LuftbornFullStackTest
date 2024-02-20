@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\ProductCatalogApi.csproj": {}
+    "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\CatalogExpressAPI.csproj": {}
   },
   "projects": {
-    "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\ProductCatalogApi.csproj": {
+    "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\CatalogExpressAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\ProductCatalogApi.csproj",
-        "projectName": "ProductCatalogApi",
-        "projectPath": "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\ProductCatalogApi.csproj",
+        "projectUniqueName": "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\CatalogExpressAPI.csproj",
+        "projectName": "CatalogExpressAPI",
+        "projectPath": "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\CatalogExpressAPI.csproj",
         "packagesPath": "C:\\Users\\aya_s\\.nuget\\packages\\",
         "outputPath": "D:\\Luftborn Technical Test (.NET)\\LuftbornFullStackTest\\ProductCatalogApi\\obj\\",
         "projectStyle": "PackageReference",
