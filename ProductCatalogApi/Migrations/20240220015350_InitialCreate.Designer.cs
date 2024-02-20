@@ -11,7 +11,7 @@ using ProductCatalogApi.Data;
 namespace ProductCatalogApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240219230655_InitialCreate")]
+    [Migration("20240220015350_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -57,7 +57,7 @@ namespace ProductCatalogApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("ProductId");
 
