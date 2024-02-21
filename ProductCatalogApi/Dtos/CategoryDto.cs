@@ -4,7 +4,8 @@ namespace ProductCatalogApi.Dtos
 {
     public class CategoryDto
     {
-        [Required]
+        [Required(ErrorMessage = "Category name is required.")]
+
         public string Name { get; set; }
 
     }

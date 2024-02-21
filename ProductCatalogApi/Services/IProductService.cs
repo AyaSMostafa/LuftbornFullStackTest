@@ -4,6 +4,9 @@ using ProductCatalogApi.Models;
 
 namespace ProductCatalogApi.Services
 {
+    /// <summary>
+    /// Interface for product-related operations.
+    /// </summary>
     public interface IProductService
     {
         Task<List<Product>> GetProductsAsync();

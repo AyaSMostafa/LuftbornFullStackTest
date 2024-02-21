@@ -26,6 +26,10 @@ namespace ProductCatalogApi.Services
 
         public async Task<Product> AddProductAsync(ProductDto productDto)
         {
+            if (productDto == null)
+            {
+                throw new ArgumentNullException(nameof(productDto), "ProductDto cannot be null.");
+            }
             var product = new Product
             {
                 Name = productDto.Name,
@@ -34,8 +38,14 @@ namespace ProductCatalogApi.Services
             };
 
             _dbContext.Products.Add(product);
-            await _dbContext.SaveChangesAsync();
-
+            try
+            {
+                await _dbContext.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new ApplicationException("Error saving changes to the database.", ex);
+            }
             return product;
         }
 
