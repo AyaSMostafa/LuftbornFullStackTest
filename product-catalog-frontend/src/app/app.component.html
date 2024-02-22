@@ -1,0 +1,22 @@
+<!-- app.component.html -->
+
+<div class="container">
+  <header>
+    <h1>Welcome to Your Product Catalog</h1>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a routerLink="/products" routerLinkActive="active">Products</a></li>
+      <li><a routerLink="/categories" routerLinkActive="active">Categories</a></li>
+      <li><a *ngIf="!isLoggedIn" routerLink="/login" routerLinkActive="active">Login</a></li>
+      <li><a *ngIf="!isLoggedIn" routerLink="/register" routerLinkActive="active">Register</a></li>
+      <li><a *ngIf="isLoggedIn" (click)="logout()">Logout</a></li>
+    </ul>
+  </nav>
+
+  
+    <router-outlet></router-outlet>
+  
+</div>

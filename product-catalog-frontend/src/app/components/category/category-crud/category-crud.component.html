@@ -1,0 +1,31 @@
+<!-- category-crud.component.html -->
+
+<div>
+  <h2>Categories</h2>
+  <ul>
+    <li *ngFor="let category of categories" >
+      <span (click)="selectCategory(category)">{{ category.name }}</span>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <h2>Details</h2>
+  <form #categoryForm="ngForm">
+    <table class="table">
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td>
+          <input [(ngModel)]="selectedCategory.name" name="name" required #name="ngModel" placeholder="insert name" />
+          <div *ngIf="name.invalid && (name.dirty || name.touched)" class="text-danger">
+            <div *ngIf="name.errors?.['required']">Name is required</div>
+          </div>
+        </td>
+        <td><button class="btn btn-primary" (click)="addCategory(selectedCategory, categoryForm)" *ngIf="!selectedCategory.categoryId">Add</button></td>
+        <td><button class="btn btn-primary" (click)="updateCategory(selectedCategory)" *ngIf="selectedCategory.categoryId">Update</button></td>
+        <td><button class="btn btn-danger" *ngIf="selectedCategory" (click)="deleteCategory(selectedCategory.categoryId)">Delete</button></td>
+        <td><button class="btn btn-primary" (click)="clearSelection()">Clear Selection</button></td>
+      </tr>
+    </table>
+  </form>
+</div>

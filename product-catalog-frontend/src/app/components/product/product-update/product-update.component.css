@@ -1,0 +1,53 @@
+
+.container {
+  margin-top: 4rem;
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  color: #6c757d; 
+}
+
+input {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+select {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid #ced4da; 
+  border-radius: 0.25rem;
+  background-color: #fff;
+}
+button {
+  background-color: #28a745; 
+  color: #fff;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; 
+}
+
